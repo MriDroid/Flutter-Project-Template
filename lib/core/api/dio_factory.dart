@@ -1,7 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
-import 'package:temp/core/helpers/shared_preferences_helper.dart';
+
+import '../helpers/shared_preferences_helper.dart';
 
 class DioFactory {
   DioFactory._();

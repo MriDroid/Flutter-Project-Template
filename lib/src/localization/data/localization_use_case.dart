@@ -1,5 +1,4 @@
-import 'package:temp/core/helpers/result.dart';
-
+import '../../../core/helpers/result.dart';
 import '../../../core/services/injection_container.dart';
 import 'localization_local_source.dart';
 

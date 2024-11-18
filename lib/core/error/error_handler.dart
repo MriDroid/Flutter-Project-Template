@@ -1,6 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:temp/core/error/app_exceptions.dart';
-import 'package:temp/core/helpers/result.dart';
+
+import '../helpers/result.dart';
+import 'app_exceptions.dart';
 
 Result<T> errorHandler<T>(
   T Function() callback, {

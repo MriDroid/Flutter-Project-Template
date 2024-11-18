@@ -1,7 +1,6 @@
-import 'package:temp/core/helpers/result.dart';
-import 'package:temp/core/helpers/shared_preferences_helper.dart';
-
 import '../../../core/error/error_handler.dart';
+import '../../../core/helpers/result.dart';
+import '../../../core/helpers/shared_preferences_helper.dart';
 
 abstract class LocalizationLocaleSource {
   Result<String> getLanguageCode();

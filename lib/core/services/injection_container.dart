@@ -1,8 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:temp/core/api/api_service.dart';
-import 'package:temp/core/api/dio_factory.dart';
 import 'package:temp/src/auth/data/repository/user_repository.dart';
 import 'package:temp/src/auth/presentation/cubit/auth_cubit.dart';
 
@@ -10,6 +8,8 @@ import '../../config/router/app_router.dart';
 import '../../src/localization/data/localization_local_source.dart';
 import '../../src/localization/data/localization_use_case.dart';
 import '../../src/localization/presentation/cubit/localization_cubit.dart';
+import '../api/api_service.dart';
+import '../api/dio_factory.dart';
 
 final injector = GetIt.instance;
 
